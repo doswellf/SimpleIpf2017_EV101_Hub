@@ -11,10 +11,12 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        targetCompatibility "1.7"
-        sourceCompatibility "1.7"
     }
 
+    compileJava   {
+      sourceCompatibility = '1.7'
+      targetCompatibility = '1.7'
+    }
     lintOptions {
         // I prefer avoiding a build fail if there is any warning, for they are only warnings
         abortOnError false
