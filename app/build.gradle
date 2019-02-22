@@ -16,11 +16,12 @@ android {
             enabled true
         }
     }
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_8
-            targetCompatibility JavaVersion.VERSION_1_8
-        }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
+   
 
     lintOptions {
         // I prefer avoiding a build fail if there is any warning, for they are only warnings
