@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SimpleIpf2017_EV101</string>
+<<<<<<< HEAD
     <string name="title_brand_detail">Brand Detail</string>
+=======
+    <string name="action_settings">Settings</string>
+>>>>>>> 00df73b3dadd11965d122526f9aff189fa194958
 </resources>

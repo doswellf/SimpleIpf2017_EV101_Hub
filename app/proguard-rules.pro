@@ -15,3 +15,10 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+<<<<<<< HEAD
+=======
+
+-dontwarn **
+-dontnote **
+
+>>>>>>> 00df73b3dadd11965d122526f9aff189fa194958
